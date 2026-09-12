@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PokéArt - Colecciona cartas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🃏 PokéArt</h1>
+        <p>¡Abre sobres y completa tu colección!</p>
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             SOBRE / CARTA
+        ========================== -->
+
+        <section class="sobre-section">
+
+            <h2 id="titulo">Sobre sorpresa</h2>
+
+
+            <!-- Este es EL ÚNICO cuadro -->
+            <div id="sobre-container">
+
+                <!-- SOBRE -->
+                <img
+                    id="sobre"
+                    src="img/sobre.png"
+                    alt="Sobre Pokémon"
+                >
+
+
+                <!-- CARTA -->
+                <img
+                    id="carta"
+                    src=""
+                    alt="Carta Pokémon"
+                >
+
+            </div>
+
+
+            <p id="mensaje">
+                Haz clic en el sobre para abrirlo
+            </p>
+
+
+            <button id="abrir-btn">
+                ABRIR SOBRE
+            </button>
+
+
+            <button id="otra-btn">
+                ABRIR OTRO SOBRE
+            </button>
+
+        </section>
+
+
+        <!-- =========================
+             COLECCIÓN
+        ========================== -->
+
+        <section class="coleccion">
+
+            <h2>📚 Mi colección</h2>
+
+            <p>
+                Cartas conseguidas:
+                <strong>
+                    <span id="contador">0</span>
+                </strong>
+            </p>
+
+            <div id="album"></div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
